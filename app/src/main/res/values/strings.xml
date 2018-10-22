@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Music App</string>
+
+    <!-- short app name-->
+    <string name="app_short_name">MU!</string>
+
+    <!-- Content description for Image in the activity_main-->
+    <string name="content_description">Image View for splash screen</string>
+
+    <!-- Content description for Image in the activity_home-->
+    <string name="content_description_home">Image View for home screen</string>
+
+    <!-- song name for the songs [CHAR LIMIT=20] -->
+    <string name="song_name">Song name</string>
+
+    <!-- Category name for the songs for oldies [CHAR LIMIT=20] -->
+    <string name="category_oldies">Oldies</string>
+
+    <!-- Category name for the songs for chill [CHAR LIMIT=20] -->
+    <string name="category_chill">Chill</string>
+
+    <!-- Category name for the songs for retro [CHAR LIMIT=20] -->
+    <string name="category_retro">Retro</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivMusic"
+        android:layout_width="@dimen/custom_music_margin"
+        android:layout_height="@dimen/custom_music_margin"
+        android:layout_alignTop="@+id/ivStop"
+        android:src="@drawable/a_music" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtSinger"
+        android:layout_alignLeft="@+id/txtSinger"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/custom_margin_top"
+        android:text="@string/song_name"
+        android:textColor="@color/songs_color"
+        android:textSize="@dimen/song_text_size" />
+
+    <TextView
+        android:id="@+id/txtSinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivMusic"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/layout_margin"
+        android:layout_toEndOf="@+id/ivMusic"
+        android:layout_toRightOf="@+id/ivMusic"
+        android:text="Singer"
+        android:textColor="@color/background_color"
+        android:textSize="@dimen/singer_text_size" />
+
+    <ImageView
+        android:id="@+id/ivPlay"
+        android:layout_width="@dimen/custom_music_margin"
+        android:layout_height="@dimen/custom_music_margin"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_toLeftOf="@id/ivStop"
+        android:src="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/ivStop"
+        android:layout_width="@dimen/custom_music_margin"
+        android:layout_height="@dimen/custom_music_margin"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:src="@drawable/stop" />
+
+</RelativeLayout>

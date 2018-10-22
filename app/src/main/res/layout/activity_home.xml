@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    tools:context=".HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/music_home"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_image_height"
+            android:contentDescription="@string/content_description_home"
+            android:src="@drawable/music_icon" />
+
+
+        <TextView
+            android:id="@+id/chill"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:layout_marginTop="@dimen/activity_margin_top"
+            android:background="@color/category_chill"
+            android:text="@string/category_chill" />
+
+
+        <TextView
+            android:id="@+id/retro"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:layout_marginTop="@dimen/activity_margin_top"
+            android:background="@color/category_retro"
+            android:text="@string/category_retro" />
+
+
+        <TextView
+            android:id="@+id/oldies"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:layout_marginTop="@dimen/activity_margin_top"
+            android:layout_marginBottom="@dimen/activity_margin_top"
+            android:background="@color/category_oldies"
+            android:text="@string/category_oldies" />
+
+
+    </LinearLayout>
+
+</ScrollView>

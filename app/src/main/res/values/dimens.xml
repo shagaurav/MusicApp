@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Text size of MU! in the activity_main -->
+    <dimen name="text_size">50sp</dimen>
+
+    <!-- height of image in activity_home -->
+    <dimen name="home_image_height">200dp</dimen>
+
+    <!-- Text Screen margins for text in activity_home -->
+    <dimen name="activity_margin_top">20dp</dimen>
+
+    <!-- height and width of text on activity_main and activity_home -->
+    <dimen name="text_height">100dp</dimen>
+
+    <!-- height, width and margins of image and text on activity_main -->
+    <dimen name="android_layout_margin">150dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- screen margins for image in custom_music_item -->
+    <dimen name="custom_music_margin">40dp</dimen>
+
+    <!-- screen margins for text in custom_music_item -->
+    <dimen name="layout_margin">15dp</dimen>
+
+    <!-- textSize of singer in custom_music_item -->
+    <dimen name="singer_text_size">18sp</dimen>
+
+    <!-- textSize of song in custom_music_item -->
+    <dimen name="song_text_size">20sp</dimen>
+
+    <!-- screen margins in custom_music_item -->
+    <dimen name="custom_margin_top">5dp</dimen>
+</resources>

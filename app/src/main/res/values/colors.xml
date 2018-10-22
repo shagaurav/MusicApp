@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Background color for text MU! for the splash screen -->
+    <color name="background_text__color">#ffffff</color>
+
+    <!-- Background color for app -->
+    <color name="splash_background">#000000</color>
+
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for the chill category -->
+    <color name="category_chill">#FD8E09</color>
+
+    <!-- Background color for the retro category -->
+    <color name="category_retro">#379237</color>
+
+    <!-- Background color for the oldies category -->
+    <color name="category_oldies">#8800A0</color>
+
+    <!-- Background color for singer -->
+    <color name="background_color">#000000</color>
+
+    <!-- Background color for songs -->
+    <color name="songs_color">#7019c1</color>
+
+</resources>
