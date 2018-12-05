@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-
     tools:context=".NowPlayingActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/playlist_height"
@@ -18,58 +18,61 @@
             android:id="@+id/song_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="@string/attention"
-            android:textAppearance="?android:textAppearanceLarge"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/first_textview1_margin_top"
-            android:textStyle="bold"/>
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            tools:text="@string/attention" />
+
         <ImageView
             android:id="@+id/song_image"
             android:layout_width="@dimen/playlist_image_width"
             android:layout_height="@dimen/playlist_image_height"
-            tools:ignore="contentDescription"
-            android:src="@drawable/playlist_image"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/first_imageview_margin_top"
+            android:adjustViewBounds="true"
             android:scaleType="centerCrop"
-            android:adjustViewBounds="true"/>
+            android:src="@drawable/playlist_image"
+            tools:ignore="contentDescription" />
 
         <TextView
             android:id="@+id/song_artist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="@string/attention_info"
-            android:textAppearance="?android:textAppearanceLarge"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/first_textview2_margin_top"
             android:gravity="center_horizontal"
-            android:layout_marginTop="@dimen/first_textview2_margin_top"/>
+            android:textAppearance="?android:textAppearanceLarge"
+            tools:text="@string/attention_info" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/second_margin_top">
+
             <ImageView
                 android:id="@+id/backward_arrow"
                 android:layout_width="@dimen/play_dimen"
                 android:layout_height="@dimen/play_dimen"
-                tools:ignore="contentDescription"
+                android:layout_marginEnd="@dimen/second_image_margin_end"
                 android:src="@drawable/backward"
-                android:layout_marginEnd="@dimen/second_image_margin_end"/>
+                tools:ignore="contentDescription" />
+
             <ImageView
                 android:id="@+id/play_pause"
                 android:layout_width="@dimen/play_dimen"
                 android:layout_height="@dimen/play_dimen"
-                tools:ignore="contentDescription"
-                android:src="@drawable/play" />
+                android:src="@drawable/play"
+                tools:ignore="contentDescription" />
+
             <ImageView
                 android:id="@+id/forward_arrow"
                 android:layout_width="@dimen/play_dimen"
                 android:layout_height="@dimen/play_dimen"
-                tools:ignore="contentDescription"
+                android:layout_marginStart="@dimen/second_image_margin_start"
                 android:src="@drawable/forward"
-                android:layout_marginStart="@dimen/second_image_margin_start"/>
+                tools:ignore="contentDescription" />
         </LinearLayout>
-
     </LinearLayout>
-
 </RelativeLayout>
