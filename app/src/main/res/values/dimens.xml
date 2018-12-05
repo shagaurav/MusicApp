@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!-- Text size of MU! in the activity_main -->
     <dimen name="text_size">50sp</dimen>
 
@@ -29,12 +27,40 @@
     <!-- screen margins for text in custom_music_item -->
     <dimen name="layout_margin">15dp</dimen>
 
-    <!-- textSize of singer in custom_music_item -->
-    <dimen name="singer_text_size">18sp</dimen>
+    <!-- textSize of singer in custom_music_item and activity song list item -->
+    <dimen name="singer_text_size">15sp</dimen>
 
     <!-- textSize of song in custom_music_item -->
     <dimen name="song_text_size">20sp</dimen>
 
     <!-- screen margins in custom_music_item -->
     <dimen name="custom_margin_top">5dp</dimen>
+
+    <!-- height and width of Play, forward and backward -->
+    <dimen name="play_dimen">50dp</dimen>
+
+    <!-- height of activity now playing -->
+    <dimen name="playlist_height">450dp</dimen>
+
+    <!-- height of activity now playing image -->
+    <dimen name="playlist_image_height">160dp</dimen>
+
+    <!-- width of activity now playing image -->
+    <dimen name="playlist_image_width">300dp</dimen>
+
+    <!-- height of each list item -->
+    <dimen name="list_item_height">88dp</dimen>
+
+    <!--activity_now_playing.xml-->
+    <dimen name="first_padding_bottom">16dp</dimen>
+    <dimen name="first_textview1_margin_top">32dp</dimen>
+    <dimen name="first_imageview_margin_top">24dp</dimen>
+    <dimen name="first_textview2_margin_top">16dp</dimen>
+    <dimen name="second_margin_top">48dp</dimen>
+    <dimen name="second_image_margin_end">16dp</dimen>
+    <dimen name="second_image_margin_start">16dp</dimen>
+
+    <!--activity_song_list_item-->
+    <dimen name="song_image_width">90dp</dimen>
+    <dimen name="song_image_height">90dp</dimen>
 </resources>

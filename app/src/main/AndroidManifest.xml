@@ -17,12 +17,30 @@
             </intent-filter>
         </activity>
         <activity android:name=".HomeActivity" />
-        <activity android:name=".Chill"
+        <activity android:name=".Playlists" />
+        <activity
+            android:name=".Chill"
             android:label="Chill" />
-        <activity android:name=".Retro"
+        <activity
+            android:name=".Retro"
             android:label="Retro" />
-        <activity android:name=".Oldies"
+        <activity
+            android:name=".Oldies"
             android:label="Oldies" />
+        <activity
+            android:name=".Playlists1Activity"
+            android:label="@string/chill_beats" />
+        <activity
+            android:name=".Playlists2Acticity"
+            android:label="@string/heartbeats" />
+        <activity
+            android:name=".Playlists3Activity"
+            android:label="@string/play_the_hits" />
+
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="Playing" />
+
     </application>
 
 </manifest>

@@ -16,9 +16,30 @@
     <!-- Category name for the songs for oldies [CHAR LIMIT=20] -->
     <string name="category_oldies">Oldies</string>
 
+    <!-- Category name for the songs for Playlists [CHAR LIMIT=20] -->
+    <string name="category_songs">Playlists</string>
+
     <!-- Category name for the songs for chill [CHAR LIMIT=20] -->
     <string name="category_chill">Chill</string>
 
     <!-- Category name for the songs for retro [CHAR LIMIT=20] -->
     <string name="category_retro">Retro</string>
+
+    <!-- Song name[CHAR LIMIT=20] -->
+    <string name="attention">Attention</string>
+
+    <!-- Song name[CHAR LIMIT=20] -->
+    <string name="attention_singer_info">Charlie Puth</string>
+
+    <!-- Song name[CHAR LIMIT=20] -->
+    <string name="attention_info">Charlie Puth-Attention</string>
+
+    <!-- Song1 playlist [CHAR LIMIT=20] -->
+    <string name="chill_beats">Chill beats</string>
+
+    <!-- Song2 playlist [CHAR LIMIT=20] -->
+    <string name="heartbeats">Heartbeats</string>
+
+    <!-- Song3 playlist [CHAR LIMIT=20] -->
+    <string name="play_the_hits">Play The Hits</string>
 </resources>

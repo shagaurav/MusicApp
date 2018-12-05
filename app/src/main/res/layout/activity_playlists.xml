@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/playlists_activity_background"
+    android:padding="16dp"
+    tools:context=".Playlists">
+
+    <TextView
+        android:id="@+id/songs1"
+        style="@style/Category_Style_songs"
+        android:background="@color/song1_background"
+        android:text="@string/chill_beats" />
+
+    <TextView
+        android:id="@+id/songs2"
+        style="@style/Category_Style_songs"
+        android:background="@color/song2_background"
+        android:text="@string/heartbeats" />
+
+    <TextView
+        android:id="@+id/songs3"
+        style="@style/Category_Style_songs"
+        android:background="@color/song3_background"
+        android:text="@string/play_the_hits" />
+
+</LinearLayout>

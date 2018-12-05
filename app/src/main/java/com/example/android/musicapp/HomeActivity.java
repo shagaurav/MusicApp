@@ -1,6 +1,5 @@
 package com.example.android.musicapp;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -59,6 +58,22 @@ public class HomeActivity extends AppCompatActivity {
 
                 // Start the new activity
                 startActivity( oldiesIntent );
+            }
+        } );
+
+        // Find the View that shows the oldies category
+        TextView songs = (TextView) findViewById( R.id.songs );
+
+        // Set a click listener on that View
+        songs.setOnClickListener( new View.OnClickListener() {
+            // The code in this method will be executed when the colors category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link Oldies}
+                Intent songsIntent = new Intent( HomeActivity.this, Playlists.class );
+
+                // Start the new activity
+                startActivity( songsIntent );
             }
         } );
 

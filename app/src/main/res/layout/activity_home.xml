@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home_background"
+    android:background="@color/primary_dark_color"
     tools:context=".HomeActivity">
 
 
@@ -48,9 +48,18 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/text_height"
             android:layout_marginTop="@dimen/activity_margin_top"
-            android:layout_marginBottom="@dimen/activity_margin_top"
             android:background="@color/category_oldies"
             android:text="@string/category_oldies" />
+
+        <TextView
+            android:id="@+id/songs"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_height"
+            android:layout_marginTop="@dimen/activity_margin_top"
+            android:layout_marginBottom="@dimen/activity_margin_top"
+            android:background="@color/category_songs"
+            android:text="@string/category_songs" />
 
 
     </LinearLayout>
